@@ -1,0 +1,16 @@
+#/etc/systemd/system
+[Unit]
+Description= ken model
+After=syslog.target
+
+[Service]
+User=cerocam
+WorkingDirectory=/opt/ubuntu/person_line
+ExecStart=/home/cerocam/Documentos/venv/bin/python3 run_apps.py
+Restart=always
+RestartSec=3
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
+

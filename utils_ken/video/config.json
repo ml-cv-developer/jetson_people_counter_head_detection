@@ -1,0 +1,180 @@
+{
+    "capacity": 17,
+    "list_cam": [
+        {
+            "lines": [
+                517,
+                113,
+                1190,
+                314
+            ],
+            "point1":[
+                958,
+                66
+            ],
+            "point2":[
+                706,
+                397
+            ],
+            "cam_id": 3,
+            "cam_addr": "rtsp://admin:admin123@hadishop.vncctv.info:81//cam/realmonitor?channel=5&subtype=0",
+            "store_id": 5
+        },
+        {
+            "lines": [
+                31,
+                300,
+                1271 ,
+                300
+            ],
+            "point1":[
+                1095,
+                670
+            ],
+            "point2":[
+                480,
+                110
+            ],
+            "cam_id": 6,
+            "cam_addr": "rtsp://celebcmt8.dyndns.tv//user=&password=&channel=1&stream=0.sdp",
+            "store_id": 6
+        },
+
+        {
+            "lines": [
+                967,
+                450,
+                718,
+                304
+
+            ],
+            "point1":[
+                860,
+                280
+            ],
+            "point2":[
+                515,
+                580
+            ],            
+            "cam_id": 7,
+            "cam_addr": "rtsp://admin:abcd1234@432hungvuong.vncctv.info:555/Streaming/Channels/101?transp",
+            "store_id": 7
+        }, 
+        {
+            "lines": [
+                24,
+                600,
+                1902,
+                600
+            ],
+            "point1":[
+                840,
+                800
+            ],
+            "point2":[
+                700,
+                168
+            ],             
+            "cam_id": 11,
+            "cam_addr": "rtsp://admin:leson2016@shoplau.dyndns.org/Streaming/Unicast/channels/201",
+            "store_id": 20
+        },
+        {
+            "lines": [
+                1726,
+                50,
+                52 ,
+                50
+            ],
+            "point1":[
+                600,
+                23
+            ],
+            "point2":[
+                600,
+                500
+            ],              
+            "cam_id": 12,
+            "cam_addr": "rtsp://aidemo:aidemo@2018@thienan38.ddns.net:3939/cam/realmonitor?channel=5&subtype=0",
+            "store_id": 21
+        },
+        {
+            "lines": [
+            806,
+            151,
+            2 ,
+            738
+            ],
+            "point1":[
+                97,
+                378
+            ],
+            "point2":[
+                625,
+                687
+            ],              
+            "cam_id": 13,
+            "cam_addr": "rtsp://celebquangtrung.ddns.net//user=admin_password=hangvuive_channel=2_stream=0.sdp",
+            "store_id": 22
+        },
+
+        {
+            "lines": [
+            1920 ,
+            690,
+            36,
+            170
+            ],
+            "point1":[
+                761,
+                160
+            ],
+            "point2":[
+                143,
+                500
+            ],    
+            "cam_id": 14,
+            "cam_addr": "rtsp://admin:123456aA@bargialai.vncctv.info:554/cam/realmonitor?channel=2&subtype=0",
+            "store_id": 23
+        },
+        
+        {
+            "lines": [
+            113 ,
+            380,
+            831,
+            64
+            ],
+            "point1":[
+                816,
+                466
+            ],
+            "point2":[
+                399,
+                74
+            ],    
+            "cam_id": 17,
+            "cam_addr": "rtsp://admin:abcd1234@urcstore.vncctv.info/Streaming/Unicast/channels/501",
+            "store_id": 28
+        },
+        {
+            "lines": [
+            707,
+            102,
+            1280,
+            657
+            ],
+            "point1":[
+                1048,
+                218
+            ],
+            "point2":[
+                560,
+                482
+            ],    
+            "cam_id": 18,
+            "cam_addr": "rtsp://admin:kgvn!@#$@srtranduyhung.ddns.net/Streaming/Channels/201",
+            "store_id": 2822
+        }        
+    ]
+}

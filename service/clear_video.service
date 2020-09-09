@@ -1,0 +1,16 @@
+#/etc/systemd/system
+[Unit]
+Description= ken model
+After=syslog.target
+
+[Service]
+User=ken
+WorkingDirectory=/home/ken/workspace/release/traffic_app
+ExecStart=/home/ken/workspace/virtualenv/venv/bin/python3 clear_video.py
+Restart=always
+RestartSec=300
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
+

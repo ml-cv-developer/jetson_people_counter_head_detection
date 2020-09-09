@@ -1,0 +1,49 @@
+{
+	"server_id"	:	1,
+	// mysql server information
+	"camera_info" : "./jetson/camera_info.json",
+	"zone_info" : "./jetson/zone_info.json",
+	// show video
+	"show_video"	: true,
+
+	// "send_database"	: false,
+	
+
+	"save_excel"	: true,
+	"excels_output"	: "./output/excel",
+		
+
+	// updata to database/excel/ubidot
+	"updated_every"	: 1,
+
+	// "output folder"
+	"video_mode"	: false,
+	// "video_out" 	:"./output/videos",
+	"images_mode"	: false,
+	// "images_out" 	:"./output/images",
+	"type_data_take"  : ["person"], 
+	"take_every"  	: 1, 
+
+	// "vehicle type"
+	"vehicle_type"  : ["person"], 
+
+	// for tracker parameter
+	"maxObjectTrack"		: 5,
+	"maxDistance"			: 100,
+	"max_Timedisappeared"	: 3,
+
+
+	// "mode_spost"	: 1,
+	// "mode_zone"		: 2,
+
+	// UBIDOT INFORMATION 
+	"send_ubidot"		: true,
+	"ubidot_token" 		: "BBFF-zIgvIJdpaW9EWJ3clK4Kpl5yIhWBiA",
+	"machine"			: "baplo",
+	"lat"				: 16.064929,
+	"lng"				: 108.2171995,
+		// call_api INFORMATION
+	"light_api"		: true,
+	"placeId" 		: "ViKAVCAwm9",
+	"ip_machine"	: "104.248.23.210"
+}
